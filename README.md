@@ -1,7 +1,7 @@
-### valeron
+# valeron
 My language: python + pascal + c++ (python4)
 
-# Example of program:
+### Example of program:
 
 def F(x)  
 &nbsp;&nbsp;if x <= 1 \{  
@@ -49,75 +49,75 @@ newline
 x = y = z = 100  
 print x * y *   
 
-# OUTPUT:
-result:
-0 3 6 9 12 
-3 4 9 8 15 12 21 16 27 20 
+### OUTPUT:  
+result:  
+0 3 6 9 12  
+3 4 9 8 15 12 21 16 27 20  
 0 1 1 2 3 5 
-1000000 
-------------------------------------
-poliz:
-F( x )
-x 1<=if{
-x return 
-}
-x 1-F( )x 2-F( )+return 
-endef
-g( i )
-i 2*return 
-endef
-f( x size )
-i 0=
-$while0:i size <while {
-xi [i g( )+print 
-i i 1+=
-}goto $while0
-endef
-i 0=
-$while1:i 5<while {
-ai [i =
-i i 1+=
-}goto $while1
-a4[5f( )
-newline 
-j 1=
-$while2:j 10<=while {
-j 2%0==if{
-j 2*print 
-}
-else{
-j 3*print 
-}
-j j 1+=
-}goto $while2
-newline 
-i 0=
-$while3:i 5<=while {
-i F( )print 
-i i 1+=
-}goto $while3
-newline 
-x y z 100===
-x y *z *print 
-------------------------------------
-variable:
-i=6
-j=11
-x=100
-y=100
-z=100
-------------------------------------
+1000000  
+
+poliz:  
+F( x )  
+x 1<=if\{  
+x return   
+\}  
+x 1-F( )x 2-F( )+return  
+endef  
+g( i )  
+i 2\*return   
+endef  
+f( x size )  
+i 0=  
+$while0:i size \<while \{  
+xi \[i g( )+print   
+i i 1+=  
+\\}goto $while0  
+endef  
+i 0=  
+\$while1:i 5<while \{  
+ai \[i =  
+i i 1+=  
+\}goto \$while1  
+a4\[5f( )  
+newline  
+j 1=  
+\$while2:j 10<=while \{  
+j 2%0==if\{   
+j 2\*print   
+\}  
+else\{  
+j 3\*print   
+\}  
+j j 1+=  
+\}goto \$while2  
+newline   
+i 0=  
+\$while3:i 5<=while \{  
+i F( )print   
+i i 1+=  
+\}goto \$while3   
+newline   
+x y z 100===  
+x y \*z \*print   
+
+variable:  
+i=6  
+j=11  
+x=100  
+y=100  
+z=100  
+
 array:
-a[ 0 1 2 3 4 ]
-------------------------------------
-label:
-$while0
-$while1
-$while2
-$while3
-------------------------------------
-function:
-F( x )
-f( x size )
-g( i )
-###################################################################################################
+a\[ 0 1 2 3 4 \]  
+
+label:    
+\$while0  
+\$while1  
+\$while2  
+\$while3  
+
+function:  
+F( x )  
+f( x size )  
+g( i )  
+
