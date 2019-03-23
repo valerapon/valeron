@@ -1,5 +1,23 @@
 # valeron
-My language: python + pascal + c++ (python4)
+My language: python + pascal + c++ (python4)  
+   
+##### What it's include:  
+1) Simple operations  
+2) Variable  
+3) Arrays  
+4) Goto/Label constructions  
+5) If/Else constructions  
+6) circles While
+7) Function
+8) Correct checker  
+
+##### How to compiler in console:    
+&nbsp;&nbsp;*g++ -o main main.cpp Algorithm.cpp Lexem.cpp Number.cpp Operator.cpp Variable.cpp Label.cpp Array.cpp Function.cpp Error.cpp*  
+or:  
+&nbsp;&nbsp;*make*  
+
+##### How to run:   
+*./main*  
 
 ## Example of program:
 
@@ -56,7 +74,7 @@ print x * y *
 0 1 1 2 3 5 
 1000000  
 
-poliz:  
+#### poliz:  
 F( x )  
 x 1<=if\{  
 x return   
