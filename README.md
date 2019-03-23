@@ -3,11 +3,8 @@ My language: python + pascal + c++ (python4)
 
 # Example of program:
 
-def F(x)  
-    if x <= 1 {  
-       		return x  
-    	}  
-	return F(x - 1) + F(x - 2)  
+def F(x)if x <= 1 \{return x \}
+ return F(x - 1) + F(x - 2)  
 endef  
 
 def g(i)
