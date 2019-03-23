@@ -1,4 +1,4 @@
-# valeron
+### valeron
 My language: python + pascal + c++ (python4)
 
 # Example of program:
@@ -50,7 +50,6 @@ x = y = z = 100
 print x * y *   
 
 # OUTPUT:
-###
 result:
 0 3 6 9 12 
 3 4 9 8 15 12 21 16 27 20 
