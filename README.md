@@ -11,7 +11,7 @@ def F(x)
 endef  
 
 def g(i)  
-&nbsp;&nbsp;return i * 2
+&nbsp;&nbsp;return i * 2  
 endef
 
 def f(x, size)  
