@@ -1,7 +1,7 @@
 # valeron
 My language: python + pascal + c++ (python4)
 
-### Example of program:
+## Example of program:
 
 def F(x)  
 &nbsp;&nbsp;if x <= 1 \{  
@@ -49,8 +49,8 @@ newline
 x = y = z = 100  
 print x * y *   
 
-### OUTPUT:  
-result:  
+## OUTPUT:  
+####result:  
 0 3 6 9 12  
 3 4 9 8 15 12 21 16 27 20  
 0 1 1 2 3 5 
@@ -100,23 +100,23 @@ newline
 x y z 100===  
 x y \*z \*print   
 
-variable:  
+####variable:  
 i=6  
 j=11  
 x=100  
 y=100  
 z=100  
 
-array:
+####array:
 a\[ 0 1 2 3 4 \]  
 
-label:    
+####label:    
 \$while0  
 \$while1  
 \$while2  
 \$while3  
 
-function:  
+####function:  
 F( x )  
 f( x size )  
 g( i )  
