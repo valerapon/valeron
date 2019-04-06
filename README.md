@@ -25,7 +25,7 @@ x = 1 - create varable and put here 1
 y = z + x * 1 - crete 2 variable: z with 0 value and y with 1 value  
 x\[5\] = 6 - create array \[0, 0, 0, 0, 0, 6\]  
 Numerical operations:  
-= + - * / % >> << ^ == != >= <= > < & |
+= + - * / % >> << ^ == != >= <= > < & |  
 print x - print value  
 newline - print \'\n\'  
 A: - create label  
