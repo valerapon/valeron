@@ -1,5 +1,5 @@
 # valeron
-My language: python + pascal + c++ (python4)  
+My language: python + pascal + c++ = python4  
    
 ##### What it's include:  
 1) Simple operations  
