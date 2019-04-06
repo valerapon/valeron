@@ -21,35 +21,28 @@ or:
 *./main*  
 
 ##### Syntax:
-###### x = 1
- - create varable and put here 1  
-###### y = z + x * 1
- - crete 2 variable: z with 0 value and y with 1 value  
-###### x\[5\] = 6
- - create array \[0, 0, 0, 0, 0, 6\]  
-###### Numerical operations:  
+<strong>x = 1</strong> - create varable and put here 1  
+<strong>y = z + x * 1</strong> - crete 2 variable: z with 0 value and y with 1 value  
+<strong>x\[5\] = 6</strong> - create array \[0, 0, 0, 0, 0, 6\]  
+<strong>Numerical operations:</strong>  
 = + - * / % >> << ^ == != >= <= > < & |  
-###### print x
- - print value  
-###### newline
- - print \'\n\'  
-###### A:
- - create label  
-###### goto A
- - jump on label  
-###### if/else construction:  
+<strong>print x</strong> - print value  
+<strong>newline</strong> - print \'\n\'  
+<strong>A:</strong> - create label  
+<strong>goto A</strong> - jump on label  
+<strong>if/else construction:</strong>  
 if x == 1 {  
 &nbspprint 1  
 }  
 else {  
 &nbsp print 0  
 }  
-###### while construction:  
+<strong>while construction:</strong>  
 while x < 5 {  
 &nbspprint x  
 &nbspx = x + 1  
 }  
-###### function construction:
+<strong>function construction:</strong>
 def f(a)
 &nbsp...  
 endef  
