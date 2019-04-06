@@ -42,13 +42,13 @@ while x < 5 {
 &nbsp;print x  
 &nbsp;x = x + 1  
 }  
-<strong>function construction:</strong>
+<strong>function construction:</strong>  
 def f(a)
 &nbsp;...  
 endef  
   
-def g()  
-&nbps;... 
+def g()    
+&nbsp;... 
 return value  
 endef  
 
