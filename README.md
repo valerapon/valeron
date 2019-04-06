@@ -52,6 +52,9 @@ def g(x, y, z)
 &nbsp;return value  
 endef  
 
+###Addition:   
+In \"tmp\" folder locate complited code and full example.  
+
 ## Example of program:
 
 def F(x)  
