@@ -13,6 +13,7 @@ int main() {
 		alg.printArrayTable();
 		alg.printLabelTable();
 		alg.printFunctionTable();
+		alg.deleteData();
 	}
 	catch(...) {
 		error();

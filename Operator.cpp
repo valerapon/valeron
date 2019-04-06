@@ -249,6 +249,9 @@ void Division::stack_evaluate(std::stack<Lexem *> &stack) const {
 	}
 	Lexem *a = stack.top();
 	stack.pop();
+	if (b -> get_value() == 0) {
+		errorOperation('/');
+	}
 	stack.push(new Number(a -> get_value() / b -> get_value()));
 	delete a;
 	delete b;
@@ -993,9 +996,16 @@ int Return::get_priority() const {
 void Return::stack_evaluate(std::stack<Lexem *> &stack) const {
 	cur_row = stack_function.top() -> get_start_position().first;
 	cur_col = stack_function.top() -> get_start_position().second;
+	for (auto i: stack_function.top() -> _table_variable) {
+		delete i.second;
+	}
+	for (auto i: stack_function.top() -> _table_array) {
+		delete i.second;
+	}
 	if (!stack.empty()) {
 		Lexem *tmp = stack.top();
 		Number *number = new Number(tmp -> get_value());
+		delete stack_function.top();
 		stack_function.pop();
 		stack_function.top() -> _stack.push(number);
 	}

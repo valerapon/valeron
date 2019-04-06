@@ -45,6 +45,7 @@ public:
 	void printLabelTable();
 	void printArrayTable();
 	void printFunctionTable();
+	void deleteData();
 };
 
 #endif
