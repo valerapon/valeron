@@ -23,9 +23,11 @@ or:
 ##### Syntax:
 x = 1 - create varable and put here 1  
 y = z + x * 1 - crete 2 variable: z with 0 value and y with 1 value  
-x\[5\] = 6- create array \[0, 0, 0, 0, 0, 6\]  
+x\[5\] = 6 - create array \[0, 0, 0, 0, 0, 6\]  
 Numerical operations:  
-= + - * / % >> << ^ == != >= <= > <  
+= + - * / % >> << ^ == != >= <= > < & |
+print x - print value  
+newline - print \'\n\'  
 A: - create label  
 goto A - jump on label  
 if/else construction:  
@@ -40,7 +42,16 @@ while x < 5 {
 &nbspprint x  
 &nbspx = x + 1  
 }  
+function construction:
+def f(a)
+&nbsp...  
+endef  
   
+def g()  
+&nbps... 
+return value  
+endef  
+
 ## Example of program:
 
 def F(x)  
