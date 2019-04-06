@@ -43,12 +43,12 @@ while x < 5 {
 &nbsp;x = x + 1  
 }  
 <strong>function construction:</strong>  
-def f(a)
+def f(a)   
 &nbsp;...  
 endef  
   
 def g()    
-&nbsp;... 
+&nbsp;...  
 return value  
 endef  
 
