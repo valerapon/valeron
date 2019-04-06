@@ -47,9 +47,9 @@ def f(a)
 &nbsp;...  
 endef  
   
-def g()    
+def g(x, y, z)    
 &nbsp;...  
-return value  
+&nbsp;return value  
 endef  
 
 ## Example of program:
