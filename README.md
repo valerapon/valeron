@@ -32,23 +32,23 @@ or:
 <strong>goto A</strong> - jump on label  
 <strong>if/else construction:</strong>  
 if x == 1 {  
-&nbspprint 1  
+&nbsp;print 1  
 }  
 else {  
-&nbsp print 0  
+&nbsp;print 0  
 }  
 <strong>while construction:</strong>  
 while x < 5 {  
-&nbspprint x  
-&nbspx = x + 1  
+&nbsp;print x  
+&nbsp;x = x + 1  
 }  
 <strong>function construction:</strong>
 def f(a)
-&nbsp...  
+&nbsp;...  
 endef  
   
 def g()  
-&nbps... 
+&nbps;... 
 return value  
 endef  
 
