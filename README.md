@@ -15,12 +15,12 @@ My language: python + pascal + c++ = python4
 ![](tmp/UML.png)
 
 ##### How to compiler in console:    
-&nbsp;&nbsp;*g++ -o main main.cpp Algorithm.cpp Lexem.cpp Number.cpp Operator.cpp Variable.cpp Label.cpp Array.cpp Function.cpp Error.cpp*  
+&nbsp;&nbsp;<code>g++ -o main main.cpp Algorithm.cpp Lexem.cpp Number.cpp Operator.cpp Variable.cpp Label.cpp Array.cpp Function.cpp Error.cpp</code>  
 or:  
 &nbsp;&nbsp;*make*  
 
 ##### How to run:   
-*./main*  
+<code>./main</code>  
 
 ##### Syntax:
 <strong>x = 1</strong> - create varable and put here 1  
