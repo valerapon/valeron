@@ -105,12 +105,14 @@ print x * y *
 ```
 ## OUTPUT:  
 #### result:  
+```
 0 3 6 9 12  
 3 4 9 8 15 12 21 16 27 20  
 0 1 1 2 3 5 
 1000000  
-
+```
 #### postfix:  
+```
 F( x )  
 x 1<=if\{  
 x return   
@@ -153,25 +155,29 @@ i i 1+=
 newline   
 x y z 100===  
 x y \*z \*print   
-
+```
 #### variable:  
+```
 i=6  
 j=11  
 x=100  
 y=100  
 z=100  
-
+```
 #### array:
+```
 a\[ 0 1 2 3 4 \]  
-
+```
 #### label:    
+```
 \$while0  
 \$while1  
 \$while2  
 \$while3  
-
+```
 #### function:  
+```
 F( x )  
 f( x size )  
 g( i )  
-
+```
