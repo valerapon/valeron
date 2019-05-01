@@ -12,7 +12,7 @@ My language: python + pascal + c++ = python4
 8) Correct checker  
 9) Function   
 
-![](tmp/UML.png)
+![](var/UML.png)
 
 ##### How to compiler in console:    
 &nbsp;&nbsp;<code>g++ -o main main.cpp Algorithm.cpp Lexem.cpp Number.cpp Operator.cpp Variable.cpp Label.cpp Array.cpp Function.cpp Error.cpp</code>  
