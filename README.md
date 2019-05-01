@@ -102,7 +102,7 @@ while i <= 5 \{
 newline  
 x = y = z = 100  
 print x * y *   
-
+```
 ## OUTPUT:  
 #### result:  
 0 3 6 9 12  
@@ -174,4 +174,4 @@ a\[ 0 1 2 3 4 \]
 F( x )  
 f( x size )  
 g( i )  
-```
+
