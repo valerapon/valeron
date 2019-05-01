@@ -56,7 +56,7 @@ endef
 In \"tmp\" folder locate complited code and full example.  
 
 ## Example of program:
-
+```
 def F(x)  
 &nbsp;&nbsp;if x <= 1 \{  
 &nbsp;&nbsp;&nbsp;&nbsp;return x  
@@ -174,4 +174,4 @@ a\[ 0 1 2 3 4 \]
 F( x )  
 f( x size )  
 g( i )  
-
+```
