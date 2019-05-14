@@ -18,8 +18,9 @@ My language: python + pascal + c++ = python4
 &nbsp;&nbsp;<code>make</code>  
 
 ##### How to run:   
-<code>./main</code>  
-
+<code>./var/main</code>  
+debug mode:  
+<code>./var/main -d</code>  
 ##### Syntax:
 <strong>x = 1</strong> - create varable and put here 1  
 <strong>y = z + x * 1</strong> - crete 2 variable: z with 0 value and y with 1 value  
