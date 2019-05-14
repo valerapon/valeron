@@ -14,7 +14,7 @@ My language: python + pascal + c++ = python4
 
 ![](var/UML.png)
 
-##### How to compiler in console:    
+##### How to compile in terminal:    
 &nbsp;&nbsp;<code>make</code>  
 
 ##### How to run:   
