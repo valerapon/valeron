@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
 		alg.defineConditionsAndLoops();
 		alg.defineFunctions();
 		alg.evaluate_poliz();
-		if (argv[1] == "-debug") {
+		if (argc > 1 && argv[1][0] == '-' && argv[1][1] == 'd') {
 			alg.printPolizTable();
 			alg.printVariableTable();
 			alg.printArrayTable();
