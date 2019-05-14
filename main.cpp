@@ -1,6 +1,6 @@
 #include "headers/Algorithm.h"
 
-int main() {
+int main(int argc, char **argv) {
 	try {
 		Algorithm alg;
 		alg.definePoliz();
@@ -8,11 +8,13 @@ int main() {
 		alg.defineConditionsAndLoops();
 		alg.defineFunctions();
 		alg.evaluate_poliz();
-		alg.printPolizTable();
-		alg.printVariableTable();
-		alg.printArrayTable();
-		alg.printLabelTable();
-		alg.printFunctionTable();
+		if (argv[1] == "-debug") {
+			alg.printPolizTable();
+			alg.printVariableTable();
+			alg.printArrayTable();
+			alg.printLabelTable();
+			alg.printFunctionTable();
+		}
 		alg.deleteData();
 	}
 	catch(...) {
