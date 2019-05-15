@@ -59,50 +59,50 @@ In \"tmp\" folder locate complited code and full example.
 ## Example of program:
 ```
 def F(x)  
-&nbsp;&nbsp;if x <= 1 \{  
-&nbsp;&nbsp;&nbsp;&nbsp;return x  
-&nbsp;&nbsp;\}  
-&nbsp;&nbsp;return F(x - 1) + F(x - 2)  
+  if x <= 1 {  
+    return x  
+  }  
+  return F(x - 1) + F(x - 2)  
 endef  
 
 def g(i)  
-&nbsp;&nbsp;return i * 2  
+  return i * 2  
 endef
 
 def f(x, size)  
-&nbsp;&nbsp;i = 0  
-&nbsp;&nbsp;while i < size \{  
-&nbsp;&nbsp;&nbsp;&nbsp;print x[i] + g(i)  
-&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1  
-&nbsp;&nbsp;\}  
+  i = 0  
+  while i < size {  
+    print x[i] + g(i)  
+    i = i + 1  
+  }  
 endef
 
 i = 0  
-while i < 5 \{  
-&nbsp;&nbsp;a[i] = i  
-&nbsp;&nbsp;i = i + 1  
-\}  
+while i < 5 {  
+  a[i] = i  
+  i = i + 1  
+}  
 f(a[4], 5)  
 newline  
 j = 1  
-while j <= 10 \{  
-&nbsp;&nbsp;if j % 2 == 0 \{  
-&nbsp;&nbsp;&nbsp;&nbsp;print j * 2  
-&nbsp;&nbsp;\}  
-&nbsp;&nbsp;else \{  
-&nbsp;&nbsp;&nbsp;&nbsp;print j * 3  
-&nbsp;&nbsp;\}  
-&nbsp;&nbsp;j = j + 1  
-\}  
+while j <= 10 {  
+  if j % 2 == 0 {  
+    print j * 2  
+  }  
+  else {  
+    print j * 3  
+  }  
+  j = j + 1  
+}  
 newline  
 i = 0  
-while i <= 5 \{  
-&nbsp;&nbsp;print F(i)  
-&nbsp;&nbsp;i = i + 1  
-\}  
+while i <= 5 {  
+  print F(i)  
+  i = i + 1  
+}  
 newline  
 x = y = z = 100  
-print x * y *   
+print x * y   
 ```
 ## OUTPUT:  
 #### result:  
