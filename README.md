@@ -18,7 +18,7 @@ My language: python + pascal + c++ = python4
 &nbsp;&nbsp;<code>make</code>  
 
 ##### How to run:   
-<code>./var/main</code>  
+<code>./bin/main</code>  
 debug mode:  
 <code>./var/main -d</code>  
 ##### Syntax:
